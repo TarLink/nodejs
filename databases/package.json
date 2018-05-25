@@ -6,8 +6,7 @@
   "scripts": {
     "test": "mocha",
     "test:watch": "mocha --watch --reporter min",
-    "test:debug":
-      "node --inspect node_modules/mocha/bin/_mocha --watch --no-timeouts"
+    "test:debug": "node --inspect-brk=0.0.0.0:9229 node_modules/mocha/bin/_mocha --watch --no-timeouts"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +14,9 @@
   "devDependencies": {
     "chai": "3.5.0",
     "mocha": "2.4.5"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "ws": "^5.2.0"
   }
 }
