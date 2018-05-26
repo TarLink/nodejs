@@ -12,12 +12,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "4.14.1",
-    "morgan": "1.8.1",
-    "nconf": "0.8.4",
-    "nodemon": "1.11.0",
-    "request": "2.79.0",
-    "request-promise": "4.1.1"
+    "express": "^4.14.1",
+    "morgan": "^1.8.1",
+    "nconf": "^0.8.4",
+    "nodemon": "^1.11.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
   },
   "devDependencies": {
     "eslint": "3.16.0"
@@ -54,5 +54,8 @@
         "always"
       ]
     }
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
